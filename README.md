@@ -1,4 +1,4 @@
-# COMP 590/790 — Assignment 1: Cardboard VR Target Game
+# COMP 590 — Assignment 1: Cardboard VR Target Game
 
 A virtual reality target-shooting game built in Unity 6.5 for Google Cardboard.
 
