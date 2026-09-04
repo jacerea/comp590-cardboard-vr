@@ -16,7 +16,7 @@ public class ButtonClick : MonoBehaviour
         if(!ScoreManager.gameOver && Touchscreen.current != null && Touchscreen.current.press.wasPressedThisFrame){
             BallPrefab ball = Instantiate<BallPrefab>(ballPrefab);
             ball.transform.localPosition = transform.position;
-            ball.GetComponent<Rigidbody>().AddForce(Camera.main.transform.forward * Random.Range(20, 25), ForceMode.Impulse);
+            ball.GetComponent<Rigidbody>().AddForce(Camera.main.transform.forward * Random.Range(25, 30), ForceMode.Impulse);
         }
     }
 }
